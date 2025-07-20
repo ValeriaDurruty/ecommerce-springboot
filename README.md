@@ -42,14 +42,14 @@ Este proyecto es una API RESTful desarrollada en Java 21 usando Spring Boot. Per
 - `POST /api/productos` – Crear un nuevo producto
 - `PUT /api/productos/{id}` – Actualizar producto existente
 - `DELETE /api/productos/{id}` – Eliminar producto
-- `GET /api/productos/buscar?nombre=...` – Buscar producto por nombre
-- `GET /api/productos/buscar?categoria=...` – Buscar producto por categoría
+- `GET /api/productos/buscar?nombre={nombre}` – Buscar producto por nombre
+- `GET /api/productos/buscar?categoria={categoria}` – Buscar producto por categoría
 
 ### Pedidos
 - `GET /api/pedidos` – Listar todos los pedidos
-- `GET /api/pedidos/estado/{estado}` – Listar pedidos por estado (Ej: PENDIENTE)
+- `GET /api/pedidos/filtrar?estado={ESTADO}` – Listar pedidos por estado (Ej: PENDIENTE)
 - `POST /api/pedidos` – Crear un pedido con múltiples productos
-- `PUT /api/pedidos/{id}/estado?estado=ESTADO` – Cambiar el estado de un pedido
+- `PUT /api/pedidos/{id}/estado?estado={ESTADO}` – Cambiar el estado de un pedido
 
 ---
 
