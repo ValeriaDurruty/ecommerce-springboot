@@ -67,6 +67,14 @@ mvn spring-boot:run
 
 ---
 
+## 📄 Documentación de pruebas
+
+En el directorio [`/docs`](./docs) se encuentra el archivo **`Pruebas_Endpoints_API_Ecommerce.pdf`**, donde se documentan los escenarios ejecutados y los resultados obtenidos en la API.
+
+Este documento puede ser utilizado como respaldo de validación para pruebas manuales de integración realizadas sobre los endpoints principales.
+
+---
+
 ## 📚 Extras
 
 - Uso de base de datos en memoria H2 para facilitar las pruebas sin configuración adicional.
